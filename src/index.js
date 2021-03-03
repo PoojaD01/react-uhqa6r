@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
-function performAction() {
-  ReactDOM.render(<App date={new Date()} />, document.getElementById("root"));
-}
-setInterval(performAction, 1000);
+import Myclock from "./Myclock";
+
+ReactDOM.render(<Myclock />, document.getElementById("root"));
